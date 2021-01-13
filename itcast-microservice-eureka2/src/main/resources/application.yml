@@ -1,0 +1,14 @@
+server:
+  port: 8081
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://zhw:123456@127.0.0.1:8080/eureka/,http://zhw:123456@127.0.0.1:8082/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    name: zhw
+    password: 123456

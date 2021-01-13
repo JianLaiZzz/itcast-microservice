@@ -1,0 +1,4 @@
+# Project exclude paths
+/itcast-microservice-eureka/target/
+/itcast-microservice-eureka2/target/
+/itcast-microservice-eureka3/target/
