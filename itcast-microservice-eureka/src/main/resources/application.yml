@@ -1,5 +1,6 @@
 server:
   port: 8080
+
 eureka:
   client:
     register-with-eureka: true
@@ -12,3 +13,4 @@ security:
   user:
     name: zhw
     password: 123456
+
